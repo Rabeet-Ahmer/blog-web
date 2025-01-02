@@ -39,7 +39,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${rocker.variable} ${poppins.variable} ${poppins.variable} text-text bg-white text-inherit antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${rocker.variable} ${poppins.variable} ${poppins.variable} text-text text-inherit bg-slate-100 antialiased`}
       >
         <Header/>
         {children}
