@@ -95,6 +95,7 @@ const CommentSection = () => {
       });
     } catch (error) {
       setSubmitError('Failed to submit comment. Please try again.');
+      console.error(error);
     } finally {
       setIsSubmitting(false);
     }
