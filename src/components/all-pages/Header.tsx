@@ -19,7 +19,7 @@ const Header = () => {
                 </ul>
               </button>
               </PopoverTrigger>
-              <PopoverContent className='w-40'>
+              <PopoverContent className='w-40 bg-accent-foreground/30 backdrop-blur-sm'>
                   <ul className='flex flex-col sm:hidden lg:text-lg items-center gap-8 font-poppins'>
                 <li className='hover:text-red-500 duration-300'><Link href={"/"}>Home</Link></li>
                 <li className='hover:text-red-500 duration-300'><Link href={"#blog"}>Blogs</Link></li>
